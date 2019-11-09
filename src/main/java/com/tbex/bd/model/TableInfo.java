@@ -2,12 +2,8 @@ package com.tbex.bd.model;
 
 public class TableInfo {
 
-    /*     public final static String userName = "root";
-         public final static String passWord = "58mysql456";*/
-/*    public final static String userName = "appuser";
-    public final static String passWord = "976xmX5kKuRNjnIy";*/
-    public static final String userName = "bigdata";
-    public static final String passWord = "CiNMeJjodReGcewf";
+    public static final String userName = "root";
+    public static final String passWord = "root";
 
     public static String hdfsLocationPath = "/data/hive/bigdata/ods/";
 
