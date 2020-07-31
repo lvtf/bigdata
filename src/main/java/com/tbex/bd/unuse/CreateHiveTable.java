@@ -19,8 +19,8 @@ public class CreateHiveTable {
 
 
         String hiveDB = "ods";
-        String userName = "bigdata";
-        String passWord = "CiNMeJjodReGcewf";
+        String userName = "root";
+        String passWord = "root";
         String URL = "jdbc:mysql://" + jdbcAddress + ":3306/" + dbName + "?tinyInt1isBit=false";
         Connection con = DriverManager.getConnection(URL, userName, passWord);
 
